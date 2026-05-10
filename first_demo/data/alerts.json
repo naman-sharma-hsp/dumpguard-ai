@@ -1,0 +1,410 @@
+[
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:02",
+    "video_second": 2,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_2.jpg",
+    "status": "ILLEGAL DUMPING CONFIRMED",
+    "alert_type": "HARD",
+    "reason": [
+      "Garbage detected",
+      "Human interaction detected",
+      "Object unattended for long duration",
+      "Dumping hotspot zone"
+    ],
+    "boxes": [
+      {
+        "x1": 310,
+        "y1": 350,
+        "x2": 460,
+        "y2": 550,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-02",
+    "time": "00:00:02",
+    "video_second": 2,
+    "confidence": 0.85,
+    "snapshot": "snapshots/CCTV-02_2.jpg",
+    "status": "ILLEGAL DUMPING CONFIRMED",
+    "alert_type": "HARD",
+    "reason": [
+      "Garbage detected",
+      "Human interaction detected",
+      "Object unattended for long duration"
+    ],
+    "boxes": [
+      {
+        "x1": 310,
+        "y1": 350,
+        "x2": 460,
+        "y2": 550,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:02",
+    "video_second": 2.73,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_2.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 306,
+        "y1": 294,
+        "x2": 389,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 162,
+        "y1": 467,
+        "x2": 242,
+        "y2": 627,
+        "label": "garbage"
+      },
+      {
+        "x1": 321,
+        "y1": 347,
+        "x2": 387,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 799,
+        "y1": 377,
+        "x2": 906,
+        "y2": 553,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:10",
+    "video_second": 10.2,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_10.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 138,
+        "y1": 232,
+        "x2": 223,
+        "y2": 368,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:16",
+    "video_second": 16.1,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_16.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 615,
+        "y1": 318,
+        "x2": 653,
+        "y2": 399,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:20",
+    "video_second": 20.73,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_20.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 363,
+        "y1": 382,
+        "x2": 396,
+        "y2": 452,
+        "label": "garbage"
+      },
+      {
+        "x1": 540,
+        "y1": 432,
+        "x2": 600,
+        "y2": 560,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:27",
+    "video_second": 27.43,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_27.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 137,
+        "y1": 330,
+        "x2": 176,
+        "y2": 410,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:02",
+    "video_second": 2.73,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_2.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 306,
+        "y1": 294,
+        "x2": 389,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 162,
+        "y1": 467,
+        "x2": 242,
+        "y2": 627,
+        "label": "garbage"
+      },
+      {
+        "x1": 321,
+        "y1": 347,
+        "x2": 387,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 799,
+        "y1": 377,
+        "x2": 906,
+        "y2": 553,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:10",
+    "video_second": 10.2,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_10.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 138,
+        "y1": 232,
+        "x2": 223,
+        "y2": 368,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:16",
+    "video_second": 16.1,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_16.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 615,
+        "y1": 318,
+        "x2": 653,
+        "y2": 399,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:20",
+    "video_second": 20.73,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_20.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 363,
+        "y1": 382,
+        "x2": 396,
+        "y2": 452,
+        "label": "garbage"
+      },
+      {
+        "x1": 540,
+        "y1": 432,
+        "x2": 600,
+        "y2": 560,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:27",
+    "video_second": 27.43,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_27.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 137,
+        "y1": 330,
+        "x2": 176,
+        "y2": 410,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-02",
+    "time": "00:00:02",
+    "video_second": 2.93,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-02_2.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 322,
+        "y1": 179,
+        "x2": 378,
+        "y2": 269,
+        "label": "garbage"
+      },
+      {
+        "x1": 841,
+        "y1": 438,
+        "x2": 1014,
+        "y2": 715,
+        "label": "garbage"
+      },
+      {
+        "x1": 305,
+        "y1": 175,
+        "x2": 378,
+        "y2": 272,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:01",
+    "video_second": 1.03,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_1.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 590,
+        "y1": 416,
+        "x2": 695,
+        "y2": 623,
+        "label": "garbage"
+      },
+      {
+        "x1": 237,
+        "y1": 265,
+        "x2": 442,
+        "y2": 640,
+        "label": "garbage"
+      },
+      {
+        "x1": 4,
+        "y1": 293,
+        "x2": 177,
+        "y2": 720,
+        "label": "garbage"
+      },
+      {
+        "x1": 667,
+        "y1": 219,
+        "x2": 823,
+        "y2": 658,
+        "label": "garbage"
+      },
+      {
+        "x1": 826,
+        "y1": 169,
+        "x2": 1052,
+        "y2": 364,
+        "label": "garbage"
+      },
+      {
+        "x1": 134,
+        "y1": 174,
+        "x2": 269,
+        "y2": 573,
+        "label": "garbage"
+      },
+      {
+        "x1": 478,
+        "y1": 169,
+        "x2": 556,
+        "y2": 378,
+        "label": "garbage"
+      },
+      {
+        "x1": 1037,
+        "y1": 166,
+        "x2": 1278,
+        "y2": 702,
+        "label": "garbage"
+      }
+    ]
+  },
+  {
+    "camera": "CCTV-01",
+    "time": "00:00:02",
+    "video_second": 2.73,
+    "confidence": 0.95,
+    "snapshot": "snapshots/CCTV-01_2.jpg",
+    "status": "ILLEGAL DUMPING DETECTED",
+    "boxes": [
+      {
+        "x1": 306,
+        "y1": 294,
+        "x2": 389,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 162,
+        "y1": 467,
+        "x2": 242,
+        "y2": 627,
+        "label": "garbage"
+      },
+      {
+        "x1": 321,
+        "y1": 347,
+        "x2": 387,
+        "y2": 472,
+        "label": "garbage"
+      },
+      {
+        "x1": 799,
+        "y1": 377,
+        "x2": 906,
+        "y2": 553,
+        "label": "garbage"
+      }
+    ]
+  }
+]
