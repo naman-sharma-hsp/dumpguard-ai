@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DumpGuard AI – Smart Waste Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">DumpGuard AI</div>
+  <nav>
+    <a href="#problem">Home</a>
+    <a href="#crisis">Problem</a>
+    <a href="#vision">Vision</a>
+    <a href="#solution">Solution</a>
+    <a href="#how">How It Works</a>
+    <a href="#dashboard" class="btn">Live Demo</a>
+  </nav>
+</header>
+
+<section class="hero" id="problem">
+  <div class="hero-content">
+    <div class="tag">AI‑Powered Waste Detection System</div>
+    <h1>Cleaner Cities,<br><span>Smarter Future.</span></h1>
+    <p>DumpGuard AI detects illegal dumping in real‑time using AI vision, smart cameras, and automated alerts for authorities.</p>
+    <a href="#solution" class="btn">Explore System →</a>
+    <div class="stats">
+      <div class="stat"><strong>95%</strong>Accuracy</div>
+      <div class="stat"><strong>24/7</strong>Monitoring</div>
+      <div class="stat"><strong>Reduced</strong>Costs</div>
+      <div class="stat"><strong>Cased</strong>Structure</div>
+    </div>
+  </div>
+</section>
+
+<section id="crisis" class="dark-section">
+  <div class="section-title">
+    <h2>The Invisible Crisis of Urban Waste</h2>
+    <p>Illegal dumping isn't just an eyesore — it's a systemic failure costing billions.</p>
+  </div>
+  <div class="dashboard">
+    <div class="panel">
+      <img src="assets/images/urban_illegal_dumping_site-CFQTXiit.png" width="100%" style="border-radius:14px">
+      <p style="margin-top:10px;font-weight:600;color:#dc2626">DETECTED HAZARD — Unregulated Dumpsite</p>
+    </div>
+    <div class="panel">
+      <p><strong>💲 Economic Drain:</strong> Cities spend $500M+ annually on cleanup.</p><br>
+      <p><strong>⚠️ Public Health Hazard:</strong> Waste spreads disease & fire risk.</p><br>
+      <p><strong>🌱 Environmental Decay:</strong> Toxic runoff damages ecosystems.</p>
+    </div>
+  </div>
+</section>
+
+<section id="vision" class="dark-section">
+  <div class="section-title">
+    <h2>AI That Sees What <span style="color:#22c55e">Others Miss</span></h2>
+    <p>Advanced vision intelligence that understands urban waste in real time</p>
+  </div>
+
+  <div class="dark-cards">
+    <div class="dark-card">
+      <h3>🧠 Object Detection</h3>
+      <p>Identifies specific waste types such as furniture, garbage bags, and tires with up to <strong>95% precision</strong>, even in dense city environments.</p>
+    </div>
+
+    <div class="dark-card">
+      <h3>⚡ Instant Alerts</h3>
+      <p>Notifies municipal authorities within seconds of a confirmed illegal dumping event.</p>
+    </div>
+
+    <div class="dark-card">
+      <h3>📊 Predictive Analytics</h3>
+      <p>Uses historical dumping data to forecast <strong>when and where</strong> dumping is likely to occur.</p>
+    </div>
+
+    <div class="dark-card">
+      <h3>🔒 Privacy First</h3>
+      <p>Automatic face and license plate blurring happens <strong>on-device</strong> before any footage is uploaded.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:60px; text-align:center">
+    <img 
+      src="assets/images/ai_computer_vision_interface_detecting_waste-j8s7PYvo.png"
+      alt="AI detecting multiple garbage objects in a city street"
+      style="width:100%; max-width:1000px; border-radius:18px; box-shadow:0 20px 50px rgba(0,0,0,0.5)"
+    >
+    <p style="margin-top:14px; color:#cbd5f5; font-size:0.95rem">
+      AI vision detecting multiple waste objects across an urban street scene
+    </p>
+  </div>
+</section>
+
+<section id="solution" class="dark-section">
+  <div class="section-title">
+    <h2>AI‑Driven Solution</h2>
+    <p>End‑to‑end smart waste control</p>
+  </div>
+  <div class="dark-cards">
+    <div class="dark-card">🚨 Auto Alerts to Authorities</div>
+    <div class="dark-card">📊 Data Analytics Dashboard</div>
+  </div>
+</section>
+
+<section id="how" class="dark-section">
+  <div class="section-title">
+    <h2>How It Works</h2>
+  </div>
+  <div class="how-steps">
+    <div class="how-step">📷 Smart cameras continuously monitor dumping-prone zones.</div>
+    <div class="how-step">🧠 AI vision model detects and classifies waste activity.</div>
+    <div class="how-step">📍 Location, time & visual proof are logged automatically.</div>
+    <div class="how-step">🚨 Real-time alerts are pushed to authorities.</div>
+    <div class="how-step">📊 Dashboard analytics optimize cleanup & enforcement.</div>
+  </div>
+</section>
+
+<section id="dashboard">
+  <div class="section-title">
+    <h2>Live Monitoring Dashboard</h2>
+    <p>Simulated AI detection and predictive hotspot map</p>
+  </div>
+
+  <!-- Demo 1: CCTV Video Simulation -->
+  <div class="panel" id="demo-video-panel">
+    <h3>📹 CCTV First Demo</h3>
+    <div class="video-gallery">
+      <div class="video-wrapper" id="cam1-wrapper">
+        <video id="video1" src="first_demo/videos/cam01.mp4" autoplay muted></video>
+        <canvas id="canvas1"></canvas>
+      </div>
+
+      <div class="video-wrapper" id="cam2-wrapper">
+        <video id="video2" src="first_demo/videos/cam02.mp4" autoplay muted></video>
+        <canvas id="canvas2"></canvas>
+      </div>
+    </div>
+    <div id="video-alerts">
+      <p class="no-alert">No illegal dumping detected yet</p>
+    </div>
+  </div>
+
+  <!-- Demo 2: Predictive Risk Map -->
+  <div class="panel" id="demo-map-panel">
+    <h3>🗺️ Predictive Hotspot Map</h3>
+    <div class="legend">
+      <span style="color:red;">● High Risk</span>
+      <span style="color:orange;">● Medium Risk</span>
+      <span style="color:green;">● Low Risk</span>
+    </div>
+    <p>Red zones indicate high-risk dumping areas</p>
+    <div id="risk-map" style="height: 400px; width: 100%;"></div>
+    <h4>Complaints by Area</h4>
+    <canvas id="complaintChart" width="400" height="150"></canvas>
+  </div>
+</section>
+
+<!-- Include Leaflet & Chart.js -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/dashboard.js"></script>
+
+<section id="goals">
+  <div class="section-title">
+    <h2>Alignment with Global Goals</h2>
+    <p>DumpGuard AI supports the United Nations Sustainable Development Goals through technology-driven urban governance.</p>
+  </div>
+  <div class="dashboard">
+    <div class="panel">
+      <h3>SDG 11 – Sustainable Cities & Communities</h3>
+      <p>Enables cleaner, safer urban environments by monitoring and preventing illegal waste disposal in real time.</p>
+      <br>
+      <h3>SDG 3 – Good Health & Well-being</h3>
+      <p>Reduces public exposure to hazardous waste, lowering health risks associated with unmanaged dumping.</p>
+    </div>
+    <div class="panel">
+      <h3>SDG 12 – Responsible Consumption & Production</h3>
+      <p>Encourages responsible waste handling by increasing accountability and visibility in waste management systems.</p>
+      <br>
+      <h3>SDG 13 – Climate Action</h3>
+      <p>Supports climate action by minimizing landfill overflow and uncontrolled waste emissions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap" class="dark-section">
+  <div class="section-title">
+    <h2>Feasibility & Roadmap</h2>
+    <p>A clear, phased plan from prototype to global scale</p>
+  </div>
+  <div class="dark-cards roadmap">
+    <div class="dark-card completed">
+      <h3>🚀 Q1 2025</h3>
+      <h4>MVP Development</h4>
+      <p>Core AI model trained on synthetic and real-world datasets. Initial monitoring dashboard prototype completed.</p>
+    </div>
+    <div class="dark-card">
+      <h3>🧪 Q2 2025</h3>
+      <h4>Pilot Launch</h4>
+      <p>Deployment across three partner neighborhoods with real-time calibration of edge AI devices.</p>
+    </div>
+    <div class="dark-card">
+      <h3>🏙️ Q3 2025</h3>
+      <h4>Expansion</h4>
+      <p>Integration with municipal systems and rollout of a public-facing reporting application.</p>
+    </div>
+    <div class="dark-card">
+      <h3>🌍 Q4 2025</h3>
+      <h4>Scale</h4>
+      <p>Launch of a full SaaS platform enabling adoption by smart cities worldwide.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tech" class="dark-section">
+  <div class="section-title">
+    <h2>Technical Stack Feasibility</h2>
+    <p>Designed for real‑world deployment with minimal infrastructure changes</p>
+  </div>
+  <div class="dark-cards">
+    <div class="dark-card">
+      <h3>AI Model</h3>
+      <p>Lightweight YOLOv8 model optimized for edge devices such as Raspberry Pi and Jetson Nano. Low‑latency inference with offline capability.</p>
+    </div>
+    <div class="dark-card">
+      <h3>Infrastructure</h3>
+      <p>Seamlessly retrofits onto existing city surveillance cameras via RTSP streams, eliminating the need for expensive hardware replacement.</p>
+    </div>
+    <div class="dark-card">
+      <h3>Cloud & Data</h3>
+      <p>Scalable AWS‑based architecture for secure data aggregation, analytics dashboards, reporting, and fleet management.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 DumpGuard AI • Smart Waste Management System</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
